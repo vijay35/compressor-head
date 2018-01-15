@@ -5,7 +5,7 @@ It is built on [Python](https://www.python.org) and hosted on the [Google App En
 
 ## Why Compressor Head?
 
-Compressor Head compresses images to the desired resolution before passing these images back to the user to download. This saves data and storage resources.
+Compressor Head compresses images to the desired resolution before passing these images back to the user to download. This saves data and storage resources. So this has a twin benefit.
 
 Running on the Google App Engine, the image conversion is nearly instantaneous. The usage of the Memcache library also speeds up the conversion process if the same image had been retrieved before.
 
